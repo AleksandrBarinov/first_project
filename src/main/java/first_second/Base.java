@@ -1,14 +1,14 @@
-/**
+package first_second; /**
  * calculator
  * @author Aleksandr Barinov
  * @version 0.2
- * @see Base
+ * @see base
  */
 
 import java.util.Scanner;
 
 public class Base {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
         /**Ввод данных в консоль
          * @see scanner*/
