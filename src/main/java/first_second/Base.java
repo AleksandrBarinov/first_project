@@ -1,4 +1,5 @@
-package first_second; /**
+package first_second;
+/**
  * calculator
  * @author Aleksandr Barinov
  * @version 0.2
