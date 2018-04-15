@@ -1,13 +1,13 @@
-package first_second; /**
+package first.and.second; /**
  * text array
  * @author Aleksandr Barinov
  * @version 0.1
- * @see first_second.two
+ * @see first.and.second.Two
  */
 
 import java.util.Scanner;
 
-public class two {
+public class Two {
     public static void main (String[] args){
 
         Scanner scanner = new Scanner(System.in);
