@@ -8,7 +8,7 @@ package third;
 
 import java.util.Scanner;
 
-public class mass {
+public class Mass {
     public void massCode (){
 
         Scanner scanner = new Scanner(System.in);

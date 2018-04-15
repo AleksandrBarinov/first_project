@@ -8,7 +8,7 @@ package third;
 
 import java.util.Scanner;
 
-public class calc {
+public class Calc {
     public void calcCode () {
         Scanner scanner = new Scanner(System.in);
         /**Ввод данных в консоль
