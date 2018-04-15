@@ -1,13 +1,13 @@
-package first.and.second; /**
+package second; /**
  * text array
  * @author Aleksandr Barinov
  * @version 0.1
- * @see first.and.second.Two
+ * @see second.MaximumCounter
  */
 
 import java.util.Scanner;
 
-public class Two {
+public class MaximumCounter {
     public static void main (String[] args){
 
         Scanner scanner = new Scanner(System.in);
