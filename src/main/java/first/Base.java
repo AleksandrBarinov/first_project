@@ -1,4 +1,4 @@
-package first.and.second;
+package first;
 /**
  * calculator
  * @author Aleksandr Barinov
