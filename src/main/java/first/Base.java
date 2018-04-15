@@ -26,6 +26,5 @@ public class Base {
         /*Вывод на консоль результата операции*/
         System.out.printf("Результат операции: " + "%20.4f",c);
         scanner.close();
-
     }
 }
