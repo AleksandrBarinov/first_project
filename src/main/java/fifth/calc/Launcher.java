@@ -1,4 +1,4 @@
-package fifthCalc;
+package fifth.calc;
 
 import java.util.Scanner;
 
@@ -16,13 +16,11 @@ public class Launcher {
             char chooseOperation = scanner.next().charAt(0);
 
             switch (chooseOperation){
-
                 case '+':
-
-                    addition add = new addition();
+                    Addition add = new Addition();
                     System.out.println("operation A " + chooseOperation + " B is selected");
                         System.out.println("operation with result ? (" + tmpRes + ")");
-                        System.out.println("(type 0 for yes, any numbers for operation with A " + chooseOperation + " B)");
+                        System.out.println("(type 0 for yes, any Numbers for operation with A " + chooseOperation + " B)");
                         int addSwitcher = scanner.nextInt();
                         if (addSwitcher==0){
                             add.operationWithResult = true;
@@ -32,13 +30,11 @@ public class Launcher {
                     add.doAddition();
                     tmpRes = add.getRes();
                     break;
-
                 case '-':
-
-                    substraction sub = new substraction();
+                    Substraction sub = new Substraction();
                     System.out.println("operation A " + chooseOperation + " B is selected");
                         System.out.println("operation with result ? (" + tmpRes + ")");
-                        System.out.println("(type 0 for yes, any numbers for operation with A " + chooseOperation + " B)");
+                        System.out.println("(type 0 for yes, any Numbers for operation with A " + chooseOperation + " B)");
                         int subSwitcher = scanner.nextInt();
                         if (subSwitcher==0){
                             sub.operationWithResult = true;
@@ -48,13 +44,11 @@ public class Launcher {
                     sub.doSubstraction();
                     tmpRes = sub.getRes();
                     break;
-
                 case '/':
-
-                    division div = new division();
+                    Division div = new Division();
                     System.out.println("operation A " + chooseOperation + " B is selected");
                         System.out.println("operation with result ? (" + tmpRes + ")");
-                        System.out.println("(type 0 for yes, any numbers for operation with A " + chooseOperation + " B)");
+                        System.out.println("(type 0 for yes, any Numbers for operation with A " + chooseOperation + " B)");
                         int divSwitcher = scanner.nextInt();
                         if (divSwitcher==0){
                             div.operationWithResult = true;
@@ -64,13 +58,11 @@ public class Launcher {
                     div.doDivision();
                     tmpRes = div.getRes();
                     break;
-
                 case '*':
-
-                    multiplication mul = new multiplication();
+                    Multiplication mul = new Multiplication();
                     System.out.println("operation A " + chooseOperation + " B is selected");
                         System.out.println("operation with result ? (" + tmpRes + ")");
-                        System.out.println("(type 0 for yes, any numbers for operation with A " + chooseOperation + " B)");
+                        System.out.println("(type 0 for yes, any Numbers for operation with A " + chooseOperation + " B)");
                         int mulSwitcher = scanner.nextInt();
                         if (mulSwitcher==0){
                             mul.operationWithResult = true;
@@ -80,7 +72,6 @@ public class Launcher {
                     mul.doMultiplication();
                     tmpRes = mul.getRes();
                     break;
-
                 case 'q':
                     continueOperation = false;
                     System.out.println("process stopped");

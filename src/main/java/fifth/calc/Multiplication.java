@@ -1,9 +1,9 @@
-package fifthCalc;
+package fifth.calc;
 
 import java.util.Scanner;
 
-public class addition extends numbers {
-    public double doAddition(){
+public class Multiplication extends Numbers {
+    public double doMultiplication(){
 
         Scanner scanner = new Scanner(System.in);
 
@@ -15,14 +15,14 @@ public class addition extends numbers {
             setB(scanner.nextDouble());
             //выполнение операции
 
-            res = getA() + getB();
+            res = getA() * getB();
             setRes(res);
         }
 
         if (operationWithResult == true) {
             System.out.println("enter the number B: ");
             setB(scanner.nextDouble());
-            res =  tmpRes + getB();
+            res =  tmpRes * getB();
         }
         return getRes();
     }

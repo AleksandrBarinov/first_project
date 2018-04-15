@@ -1,6 +1,6 @@
-package fifthCalc;
+package fifth.calc;
 
-public class numbers {
+public class Numbers {
     //класс, от которого будут наследоваться операции
     public boolean operationWithResult = false;
 

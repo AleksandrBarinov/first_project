@@ -1,8 +1,8 @@
-package fifthCalc;
+package fifth.calc;
 
 import java.util.Scanner;
 
-public class substraction extends numbers {
+public class Substraction extends Numbers {
     public double doSubstraction(){
 
         Scanner scanner = new Scanner(System.in);

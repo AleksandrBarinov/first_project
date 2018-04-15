@@ -1,8 +1,8 @@
-package fifthCalc;
+package fifth.calc;
 
 import java.util.Scanner;
 
-public class division extends numbers {
+public class Division extends Numbers {
     public double doDivision(){
 
         Scanner scanner = new Scanner(System.in);
