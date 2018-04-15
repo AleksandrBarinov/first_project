@@ -1,4 +1,4 @@
-package fourthGift;
+package fourth.gift;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class fourthGiftLauncher {
         int jellyWeight = 0;
         int jellyQuantity = 0;
         String jellyType = null;
-        //переменные для etc
+        //переменные для Etc
         int etcPrice = 0;
         int etcWeight = 0;
         int etcQuantity = 0;
@@ -25,7 +25,7 @@ public class fourthGiftLauncher {
 //основной цикл добавления в gift
         while (contAdd == true){
             System.out.println("Chose item to add in gift");
-            System.out.println("1 - candy, 2 - jellybean, 3 - etc");
+            System.out.println("1 - candy, 2 - jellybean, 3 - Etc");
             System.out.println("4 - to form a gift");
             int add = scanner.nextInt();
             switch (add){
@@ -52,14 +52,14 @@ public class fourthGiftLauncher {
                     System.out.println("----------------------------------");
                     break;
                 case 3:
-                    System.out.print("etc quantity: ");
-                    etc some = new etc();
+                    System.out.print("Etc quantity: ");
+                    Etc some = new Etc();
                     int quantityE = scanner.nextInt();
                     etcPrice = some.getPrice()*quantityE;
                     etcWeight = some.getWeight()*quantityE;
                     etcType = some.getEtcType();
                     etcQuantity = etcQuantity + quantityE;
-                    System.out.println(etcQuantity + " etc inside gift");
+                    System.out.println(etcQuantity + " Etc inside gift");
                     System.out.println("----------------------------------");
                     break;
                 case 4:
@@ -71,8 +71,8 @@ public class fourthGiftLauncher {
                     System.out.println("jellybean's weight is " + jellyWeight + " gram");
                     System.out.println("----------------------------------");
 
-                    System.out.println(etcQuantity + " " + etcType + " etc's for " + etcPrice + " cent");
-                    System.out.println("etc's Weight is " + etcWeight + " gram");
+                    System.out.println(etcQuantity + " " + etcType + " Etc's for " + etcPrice + " cent");
+                    System.out.println("Etc's Weight is " + etcWeight + " gram");
                     System.out.println("----------------------------------");
 
                     System.out.println("----------------------------------");

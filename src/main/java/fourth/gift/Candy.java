@@ -1,4 +1,4 @@
-package fourthGift;
+package fourth.gift;
 
 public class Candy {
     private int price = 4;

@@ -1,4 +1,4 @@
-package fourthGift;
+package fourth.gift;
 
 public class Jellybean {
     private int price = 7;

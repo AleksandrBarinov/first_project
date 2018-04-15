@@ -1,6 +1,6 @@
-package fourthMass;
+package fourth.mass;
 
-public class massFourth {
+public class MassFourth {
     public static void main(String[] args) {
         // объявление массива и заполнение его случайными числами + вывод на экран
         int[] nums = new int[20];

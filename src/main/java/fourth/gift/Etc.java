@@ -1,6 +1,6 @@
-package fourthGift;
+package fourth.gift;
 
-public class etc {
+public class Etc {
     private int price = 15;
     private int weight = 13;
     String etcType = "something";
