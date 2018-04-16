@@ -30,6 +30,7 @@ public class Launcher {
                     add.doAddition();
                     tmpRes = add.getRes();
                     break;
+
                 case '-':
                     Substraction sub = new Substraction();
                     System.out.println("operation A " + chooseOperation + " B is selected");
@@ -44,6 +45,7 @@ public class Launcher {
                     sub.doSubstraction();
                     tmpRes = sub.getRes();
                     break;
+
                 case '/':
                     Division div = new Division();
                     System.out.println("operation A " + chooseOperation + " B is selected");
@@ -58,6 +60,7 @@ public class Launcher {
                     div.doDivision();
                     tmpRes = div.getRes();
                     break;
+
                 case '*':
                     Multiplication mul = new Multiplication();
                     System.out.println("operation A " + chooseOperation + " B is selected");
@@ -72,6 +75,7 @@ public class Launcher {
                     mul.doMultiplication();
                     tmpRes = mul.getRes();
                     break;
+                    
                 case 'q':
                     continueOperation = false;
                     System.out.println("process stopped");
