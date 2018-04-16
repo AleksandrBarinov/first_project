@@ -75,7 +75,7 @@ public class Launcher {
                     mul.doMultiplication();
                     tmpRes = mul.getRes();
                     break;
-                    
+
                 case 'q':
                     continueOperation = false;
                     System.out.println("process stopped");
