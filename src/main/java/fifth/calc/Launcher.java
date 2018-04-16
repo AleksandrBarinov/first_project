@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class Launcher {
     public static void main(String[] args) {
+
         boolean continueOperation = true;
         double tmpRes = 0;
 
         while (continueOperation == true){
+
             System.out.println("current result of operation is " + tmpRes);
             System.out.println("***********************************");
             System.out.println("choose operation (+ - / *) ");
@@ -16,6 +18,7 @@ public class Launcher {
             char chooseOperation = scanner.next().charAt(0);
 
             switch (chooseOperation){
+
                 case '+':
                     Addition add = new Addition();
                     System.out.println("operation A " + chooseOperation + " B is selected");
