@@ -35,7 +35,7 @@ public class Launcher {
                     break;
 
                 case '-':
-                    Substraction sub = new Substraction();
+                    Subtraction sub = new Subtraction();
                     System.out.println("operation A " + chooseOperation + " B is selected");
                         System.out.println("operation with result ? (" + tmpRes + ")");
                         System.out.println("(type 0 for yes, any Numbers for operation with A " + chooseOperation + " B)");
@@ -45,7 +45,7 @@ public class Launcher {
                             System.out.println("current operation is: " + tmpRes + " " + chooseOperation + " B");
                         }
                     sub.setTmpRes(tmpRes);
-                    sub.doSubstraction();
+                    sub.doSubtraction();
                     tmpRes = sub.getRes();
                     break;
 
