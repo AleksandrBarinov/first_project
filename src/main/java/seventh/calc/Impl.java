@@ -4,15 +4,8 @@ public class Impl implements Calc{
 
     @Override
     public double division(int a, int b) {
-        double result = 0;
-        try {
-                result = a / b;
-        }catch(ArithmeticException e){
-            if (b == 0){
-                System.out.println("division by zero");
-            }
-            System.out.println("ArithmeticException");
-        }
+        double result;
+        result = a / b;
         return result;
     }
 
@@ -33,5 +26,11 @@ public class Impl implements Calc{
         int result = a + b;
         return result;
     }
+
+    @Override
+    public char testChar(char c) {
+        return c;
+    }
+
 
 }
