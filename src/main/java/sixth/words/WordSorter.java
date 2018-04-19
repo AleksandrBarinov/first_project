@@ -14,7 +14,7 @@ public class WordSorter {
         try {
 
             //чтение текста из файла
-            BufferedReader reader = new BufferedReader(new FileReader("/Users/aleksandrbarinov/Documents/text.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/text.txt"));
             String text = null;
             String tempTxt;
             while ((tempTxt = reader.readLine()) != null) {
